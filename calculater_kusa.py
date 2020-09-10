@@ -206,11 +206,11 @@ init()
 root = tk.Tk()
 root.title('计算器')
 # 设置初始尺寸位置
-root.geometry("295x275+1000+500")
+root.geometry("294x285+1000+500")
 # 透明度
 # root.attributes("-alpha", 0.7)
 # 背景可用图片
-root['background'] = "#de3163"
+root['background'] = "#fff0f5"
 # tkinter特有变量 字符串变量
 lists = []
 result = tk.StringVar()
@@ -267,6 +267,9 @@ button_point = tk.Button(root, text=".", width=5, background='#ffc0cb', bd=0, co
 button_null.grid(row=5, column=0, ipadx=4, pady=4)
 button_0.grid(row=5, column=1, ipadx=4, pady=4)
 button_point.grid(row=5, column=2, ipadx=4, pady=4)
+
+info_lab1 = tk.Label(root, text="Github: @Phrase-1\nvoice by 音枝優日", width=32, height=2, justify='left', background='#fff0f5', anchor='c')
+info_lab1.grid(row=6, column=0, columnspan=4)
 
 # 拦截关闭事件
 root.protocol('WM_DELETE_WINDOW', close_window)
