@@ -1,11 +1,3 @@
-# from playsound import playsound
-#
-# playsound('Weigh the anchor.mp3')
-# import winsound
-#
-# winsound.PlaySound(winsound.Beep(1600, 500), 1)
-# winsound.PlaySound("sounds/beep.wav", 1)
-#
 
 import tkinter as tk
 from tkinter.messagebox import askyesno
