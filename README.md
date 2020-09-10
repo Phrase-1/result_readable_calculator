@@ -6,6 +6,6 @@
 
 因素材不足，没能做出亿级及以上数字的读法
 
-![软件样式](demo/image.png)
+![软件样式](demo/image.png "软件样式")
 
 voice by 音枝優日
