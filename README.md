@@ -8,7 +8,7 @@
 
 ![软件样式](demo/image.png "软件样式")
 
-[运行演示](https://bilibili.com)
+[运行演示](https://www.bilibili.com/video/BV18k4y1y7cS/)
 
 程序还存在些许问题，如：
 
